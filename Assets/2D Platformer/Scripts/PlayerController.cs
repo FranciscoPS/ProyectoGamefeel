@@ -26,7 +26,7 @@ namespace Platformer
 
 		public Transform groundCheck;
 
-		private Rigidbody2D rigidbody;
+		private new Rigidbody2D rigidbody;
 		private Animator animator;
 		private GameManager gameManager;
 

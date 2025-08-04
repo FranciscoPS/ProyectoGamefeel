@@ -4,7 +4,7 @@ using Platformer;
 
 public class EnemyFader : MonoBehaviour
 {
-    public Rigidbody2D rigidbody2D;
+    public new Rigidbody2D rigidbody2D;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
     public EnemyAI enemyAI;

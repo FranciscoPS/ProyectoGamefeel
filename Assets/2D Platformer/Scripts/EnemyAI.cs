@@ -11,7 +11,7 @@ namespace Platformer
         public LayerMask ground;
         public Transform groundRayOrigin;
 
-        private Rigidbody2D rigidbody; 
+        private new Rigidbody2D rigidbody; 
         public Collider2D triggerCollider;
 
         private bool grouding, hitWall;
