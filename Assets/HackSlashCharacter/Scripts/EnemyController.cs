@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     public SphereCollider visionTrigger;
 
     private float currentSpeed;
-    private float waitTime = 1;
+    // private float waitTime = 1;
     private Vector3 currentTarget;
     public float patrolSpeed, aggroSpeed, patrolRadius, arriveDistance;
 
