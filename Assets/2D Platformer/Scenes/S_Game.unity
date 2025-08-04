@@ -20980,6 +20980,7 @@ GameObject:
   - component: {fileID: 1929571254}
   - component: {fileID: 1929571253}
   - component: {fileID: 1929571257}
+  - component: {fileID: 1929571258}
   m_Layer: 0
   m_Name: MovingPlatform
   m_TagString: Untagged
@@ -21149,6 +21150,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.27, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &1929571258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929571252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b4825c1b7ed4cffb5b8916471ebb70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform: {fileID: 1929571255}
+  destination: {fileID: 237627618}
+  tweenTime: 2
+  tweenEase: 1
 --- !u!1 &2035486334
 GameObject:
   m_ObjectHideFlags: 0
@@ -21444,7 +21461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5439596532191873036, guid: 41c2e8faf31f0e142b19c01fcb481719, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.37
+      value: 12.77
       objectReference: {fileID: 0}
     - target: {fileID: 5439596532191873036, guid: 41c2e8faf31f0e142b19c01fcb481719, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21500,7 +21517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5439596532191873267, guid: 41c2e8faf31f0e142b19c01fcb481719, type: 3}
       propertyPath: orthographic size
-      value: 9.76
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
